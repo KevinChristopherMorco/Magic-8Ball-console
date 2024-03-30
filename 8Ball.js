@@ -50,7 +50,7 @@ let eightBall = new EightBall()
 let user = new User(eightBall)
 do {
 
-    if (eightBall.askQuestion()) {
+    if (eightBall.askQuestion() == true) {
         break;
     }
     user.shake()
